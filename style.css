@@ -245,6 +245,7 @@ html {
   justify-content: center;
 }
 #primary li {
+  list-style-type: none;
   margin: 0 20px;
   position: relative;
 }
