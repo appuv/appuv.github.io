@@ -317,3 +317,12 @@ body {
   top:-0.14em;
   left:10px;
 }
+ul li {
+margin : 0;
+padding : 0;
+}
+
+ul{
+margin : 0;
+padding : 0;
+  }
