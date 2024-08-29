@@ -1,4 +1,21 @@
- consoleText(['Hello All.', 'Welcome', 'Made with Love.'], 'text', ['tomato', 'rebeccapurple', 'lightblue']);
+//consoleText(['Hello All.', 'Welcome', 'Made with Love.'], 'text', ['tomato', 'rebeccapurple', 'lightblue']);
+// Function to load text from the file and call consoleText
+function loadMessages() {
+    fetch('talk.txt')  
+        .then(response => response.text())
+        .then(data => {
+            // Process the file content
+            const lines = data.split('\n').filter(line => line.trim() !== '');
+            // Define colors if needed
+            const colors = ['tomato', 'rebeccapurple', 'lightblue'];
+            // Call consoleText with the loaded messages
+            consoleText(lines, 'text', colors);
+        })
+        .catch(error => console.error('Error fetching the file:', error));
+}
+
+// Call the function when the document is loaded
+document.addEventListener('DOMContentLoaded', loadMessages);
 
  function consoleText(words, id, colors) {
      if (colors === undefined) colors = ['#fff'];
