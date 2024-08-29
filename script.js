@@ -1,4 +1,4 @@
-//consoleText(['1', '2', '3','4','5'], 'text', ['green','tomato', 'rebeccapurple', 'lightblue']);
+//consoleText(['Welcome! Lost, are we?', 'Did you accidentally click that link?', '3','4','5'], 'text', ['green','tomato', 'rebeccapurple', 'lightblue']);
 // Function to load text from the file and call consoleText
 function loadMessages() {
     fetch('talk.txt')  
@@ -51,12 +51,12 @@ document.addEventListener('DOMContentLoaded', loadMessages);
                  x = -1;
                  letterCount += x;
                  waiting = false;
-             }, 1000)
+             }, 2000)
          } else if (waiting === false) {
              target.innerHTML = words[0].substring(0, letterCount)
              letterCount += x;
          }
-     }, 120)
+     }, 10)
      window.setInterval(function() {
          if (visible === true) {
              con.className = 'console-underscore hidden'
@@ -67,5 +67,5 @@ document.addEventListener('DOMContentLoaded', loadMessages);
 
              visible = true;
          }
-     }, 400)
+     }, 0)
  }
