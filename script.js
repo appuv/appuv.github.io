@@ -18,14 +18,17 @@ function loadMessages() {
 document.addEventListener('DOMContentLoaded', loadMessages);
 
  function consoleText(words, id, colors) {
-     if (colors === undefined) colors = ['#fff'];
+     const fontSize = "20px"
+	 if (colors === undefined) colors = ['#fff'];
      var visible = true;
      var con = document.getElementById('console');
+	 con.style.fontSize = fontSize;
      var letterCount = 1;
      var x = 1;
      var waiting = false;
      var target = document.getElementById(id)
      target.setAttribute('style', 'color:' + colors[0])
+	 target.style.fontSize = fontSize;
      window.setInterval(function() {
 
          if (letterCount === 0 && waiting === false) {
