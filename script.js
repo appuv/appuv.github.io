@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', loadMessages);
                  words.push(usedWord);
                  x = 1;
                  target.setAttribute('style', 'color:' + colors[0])
+				 target.style.fontSize = fontSize;
                  letterCount += x;
                  waiting = false;
              }, 1000)
