@@ -1,4 +1,4 @@
-//consoleText(['Hello All.', 'Welcome', 'Made with Love.'], 'text', ['tomato', 'rebeccapurple', 'lightblue']);
+//consoleText(['1', '2', '3','4','5'], 'text', ['green','tomato', 'rebeccapurple', 'lightblue']);
 // Function to load text from the file and call consoleText
 function loadMessages() {
     fetch('talk.txt')  
@@ -7,7 +7,7 @@ function loadMessages() {
             // Process the file content
             const lines = data.split('\n').filter(line => line.trim() !== '');
             // Define colors if needed
-            const colors = ['tomato', 'rebeccapurple', 'lightblue'];
+            const colors = ['green','tomato', 'rebeccapurple', 'lightblue'];
             // Call consoleText with the loaded messages
             consoleText(lines, 'text', colors);
         })
