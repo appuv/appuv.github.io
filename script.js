@@ -1,4 +1,4 @@
-consoleText(['Welcome! Lost, are we?', 'Did you accidentally click that link?', '3','4','5'], 'text', ['green','tomato', 'rebeccapurple', 'lightblue']);
+//consoleText(['Welcome! Lost, are we?', 'Did you accidentally click that link?', '3','4','5'], 'text', ['green','tomato', 'rebeccapurple', 'lightblue']);
 // Function to load text from the file and call consoleText
 function loadMessages() {
     fetch('talk.txt')  
