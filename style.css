@@ -391,8 +391,9 @@ footer {
   }
 }
 
+
 @media only screen and (max-width: 767px) and  (orientation: landscape) {
   .mobile-landscape {
-    display: block;
+    display: none;
   }
 }
