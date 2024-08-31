@@ -19,7 +19,6 @@ Welcome to my site. Don’t expect too much.
 If you’re looking for groundbreaking content, you might want to keep looking.
 Oh, you clicked again. How adventurous of you.
 Just in case you forgot, I’m still not AI.
-You’ve made it this far. I applaud your dedication.
 If you’re wondering about my portfolio, it’s somewhere around here—probably.
 Thanks for visiting. I’m here all week, unfortunately.
 Keep scrolling. It’s not like you have anything better to do.
@@ -42,9 +41,15 @@ Yes, I love adventure traveling and gaming. Because who needs a boring life, rig
 The thanks bar below is my subtle way of acknowledging that I didn’t invent the internet.
 I’m a data engineer, which means I can make sense of numbers. And yes, I do it with style.
 Check out my certifications. They’re just hanging around, collecting dust like trophies.
+Oh, and thanks to Amruth Krishna G (AKG) for helping with the website. He’s not in the thanks section, though.
 I’m not here to boast about my record or certifications. But if you insist on asking…
 The learning Git repo is free, just like my attempts at being humble.
 I love adventure traveling and gaming. Clearly, I’m on a quest to find new ways to procrastinate.
 Thanks to the sources below. I’m totally not exaggerating their impact on my work.
 If you’re impressed by my certifications, just wait until you hear about my epic gaming skills.
 I may be a data engineer with an Asia Book of Records, but I still can’t figure out my Wi-Fi sometimes.
+Thanks to ChatGPT and Google for their contributions. 
+You’ve made it this far. I applaud your dedication.
+If you’re viewing this on a mobile device in landscape, the cat will be gone. Consider it an Easter egg.
+Oh, you found the Easter egg already? Guess you’re really paying attention!
+It’s almost like I’m controlling your actions with this static text. Impressive, right?
