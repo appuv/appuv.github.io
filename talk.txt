@@ -10,7 +10,6 @@ Instead of reading this, you could be doing something productive.
 All this sarcasm? Inspired by The Stanley Parable.
 Don’t know it? Didn’t think so.
 Look at you, finding your way to my site.
-Oh, another visitor. How unique.
 Congratulations on stumbling across my site. Truly impressive.
 Oh, you’re still here? Someone must really love sarcasm.
 Feel free to stay as long as you like. I’ll pretend I’m thrilled.
@@ -38,6 +37,7 @@ I’m not saying I’m amazing, but did I mention the Asia Book of Records? Just
 Got certifications galore. Still working on getting one for ‘Best Humble Brag’ though.
 Feel free to use the learning Git repo. It’s not like I’m hoarding all the knowledge for myself.
 There’s a thanks bar below. It’s like a trophy for my internet research.
+Oh, another visitor. How unique.
 Yes, I love adventure traveling and gaming. Because who needs a boring life, right?
 The thanks bar below is my subtle way of acknowledging that I didn’t invent the internet.
 I’m a data engineer, which means I can make sense of numbers. And yes, I do it with style.

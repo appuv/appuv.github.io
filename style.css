@@ -357,6 +357,7 @@ body {
     position: relative;
     color: white;
     top: 0;
+    line-height: 10%;
 
 }
 
@@ -365,6 +366,7 @@ body {
     position: relative;
     top: -0.14em;
     left: 10px;
+	line-height: normal;
 }
 
 ul li {
