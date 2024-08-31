@@ -384,3 +384,9 @@ footer {
     bottom:0; 
     color: #fff;
  }
+ 
+@media only screen and (max-width: 767px) {
+  body {
+    line-height: 10%; /* Example line height for mobile devices */
+  }
+}
