@@ -1,4 +1,4 @@
-//consoleText(['Welcome! Lost, are we?', 'Did you accidentally click that link?', '3','4','5'], 'text', ['green','tomato', 'rebeccapurple', 'lightblue']);
+//consoleText(['Welcome! Lost, are we?', 'Did you accidentally click that link?', 'If you’re viewing this on a mobile device in landscape, the cat will be gone. Consider it an Easter egg','Oh, you found the Easter egg already? Guess you’re really paying attention!','It’s almost like I’m controlling your actions with this static text. Impressive, right?'], 'text',  ['green','tomato', 'rebeccapurple', 'deepskyblue','goldenrod','chocolate','white']);
 // Function to load text from the file and call consoleText
 function loadMessages() {
     fetch('talk.txt')  
@@ -7,7 +7,7 @@ function loadMessages() {
             // Process the file content
             const lines = data.split('\n').filter(line => line.trim() !== '');
             // Define colors if needed
-            const colors = ['green','tomato', 'rebeccapurple', 'lightblue'];
+            const colors = ['green','tomato', 'rebeccapurple', 'deepskyblue','goldenrod','chocolate','white'];
             // Call consoleText with the loaded messages
             consoleText(lines, 'text', colors);
         })
@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', loadMessages);
 
  function consoleText(words, id, colors) {
      const fontSize = "20px"
+	 const fontFamily = "Courier New"
 	 if (colors === undefined) colors = ['#fff'];
      var visible = true;
      var con = document.getElementById('console');
@@ -29,6 +30,7 @@ document.addEventListener('DOMContentLoaded', loadMessages);
      var target = document.getElementById(id)
      target.setAttribute('style', 'color:' + colors[0])
 	 target.style.fontSize = fontSize;
+	 target.style.fontFamily = fontFamily
      window.setInterval(function() {
 
          if (letterCount === 0 && waiting === false) {
@@ -42,6 +44,7 @@ document.addEventListener('DOMContentLoaded', loadMessages);
                  x = 1;
                  target.setAttribute('style', 'color:' + colors[0])
 				 target.style.fontSize = fontSize;
+				 target.style.fontFamily = fontFamily
                  letterCount += x;
                  waiting = false;
              }, 1000)
