@@ -13,6 +13,8 @@ Look at you, finding your way to my site.
 Congratulations on stumbling across my site. Truly impressive.
 Oh, you’re still here? Someone must really love sarcasm.
 Feel free to stay as long as you like. I’ll pretend I’m thrilled.
+And yes, the text is changing colors.
+Because who doesn’t love a bit of extra visual chaos?
 I’m so glad you’re here, said no one ever.
 Another page visit? I’m on a roll!
 Welcome to my site. Don’t expect too much.
@@ -37,6 +39,7 @@ Got certifications galore. Still working on getting one for ‘Best Humble Brag�
 Feel free to use the learning Git repo. It’s not like I’m hoarding all the knowledge for myself.
 There’s a thanks bar below. It’s like a trophy for my internet research.
 Oh, another visitor. How unique.
+Rotate your screen? No problem if it’s big enough—767px is the magic number
 Yes, I love adventure traveling and gaming. Because who needs a boring life, right?
 The thanks bar below is my subtle way of acknowledging that I didn’t invent the internet.
 I’m a data engineer, which means I can make sense of numbers. And yes, I do it with style.
@@ -50,6 +53,6 @@ If you’re impressed by my certifications, just wait until you hear about my ep
 I may be a data engineer with an Asia Book of Records, but I still can’t figure out my Wi-Fi sometimes.
 Thanks to ChatGPT and Google for their contributions. 
 You’ve made it this far. I applaud your dedication.
-If you’re viewing this on a mobile device in landscape, the cat will be gone. Consider it an Easter egg.
+Zoom in and the cat’s a no-show. Classic Easter egg!
 Oh, you found the Easter egg already? Guess you’re really paying attention!
 It’s almost like I’m controlling your actions with this static text. Impressive, right?
